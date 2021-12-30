@@ -1,0 +1,731 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: 0;
+}
+.mather{
+	width: 1400px;
+	height: 1025px;
+	background: #FFFFFF;
+}
+.head{
+	display: flex;
+	width: 1440px;
+	height: 100px;
+}
+.logo{
+	width: 131px;
+	position: absolute;
+	height: 72px;
+	left: 100px;
+	top: 17px;
+	background: url(./img/logo\ \(1\)\ 1\ \(1\).png);
+}
+.hr_1{
+	width: 1px;
+	height: 40px;
+	position: absolute;
+	left: 258px;
+	top: 31px;
+	background: #E2E2E2;
+}
+.languagr{
+	width: 35px;
+	position: absolute;
+	height: 40px;
+	left: 279px;
+}
+.ua{
+	height: 20px;
+	left: 279px;
+	top: 31px;
+	position: absolute;
+	background-color: white;
+	text-align: center;
+}
+.ru{
+	height: 20px;
+	left: 279px;
+	top: 51px;
+	position: absolute;
+	background: #4AD295;
+	border-radius: 2px;
+}
+a{
+	text-decoration: none;
+}
+.ua button{
+	background-color: white;
+}
+.ua h4{
+	width: 22px;
+	height: 18px;
+	left: 285px;
+	top: 28px;
+	font-family: Suisse Int l Trial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 21px;	
+	text-align: center;
+	color: #1F1F1F;
+}
+.ru h4{
+	width: 22px;
+	height: 18px;
+	left: 285px;
+	top: 28px;
+	font-family: Suisse Int l Trial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 21px;
+	text-align: center;
+	color: #1F1F1F;
+}
+.hr_2{
+		width: 1px;
+	height: 40px;
+	left: 320px;
+	top: 31px;
+	position: absolute;
+	background: #E2E2E2;
+}
+.many{
+	width: 75px;
+	height: 19px;
+	left: 365px;
+	position: absolute;
+	top: 31px;
+}
+.USD h4{
+	font-family: Suisse Int l Trial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 19px;
+	color: #393939;
+}
+.EUR h4{
+	font-family: Suisse Int l Trial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 19px;
+	color: #393939;
+}
+.hr_3{
+	width: 1px;
+	height: 40px;
+	left: 465px;
+	top: 31px;
+	position: absolute;
+	background: #E2E2E2;
+}
+.i_1{
+	width: 20px;
+	height: 20px;
+	left: 491px;
+	top: 42px;
+	opacity: 0.5;
+	position: absolute;
+}
+.i_2{
+	width: 20px;
+	height: 20px;
+	left: 521px;
+	top: 42px;
+	position: absolute;
+	opacity: 0.5;
+}
+.i_3{
+	width: 20px;
+	height: 20px;
+	left: 556px;
+	top: 43px;
+	opacity: 0.5;
+	position: absolute;
+}
+.hr_4{
+	width: 1px;
+	height: 40px;
+	left: 601px;
+	top: 31px;
+	position: absolute;
+	background: #E2E2E2;
+}
+.number{
+	height: 248px;
+	width: 42px;
+	left: 627px;
+	top: 29px;
+	position: absolute;
+}
+.number_1 h3{
+	width: 128px;
+	height: 21px;
+	left: 627px;
+	top: 29px;
+	font-family: Suisse Int l Trial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 21px;
+	text-align: center;
+	color: #393939;
+}
+
+.img_1{
+	width: 39px;
+	height: 39px;
+	left: 762px;
+	position: absolute;
+	top: 32px;
+}
+.hr_5{
+	width: 1px;
+	position: absolute;
+	height: 40px;
+	left: 826px;
+	top: 31px;
+	background: #E2E2E2;
+}
+.box_1{
+	position: absolute;
+	width: 240px;
+	height: 55px;
+	left: 843px;
+	top: 23px;
+	text-align: center;
+	display: flex;
+	background: #EFF3F6;
+	border-radius: 2px;
+}
+
+.box_1 h3{
+	width: 145px;
+	height: 20px;
+	left: 882px;
+	top: 40px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	
+	text-transform: uppercase;
+	color: #373737;
+}
+.i_box{
+	width: 55px;
+	height: 55px;
+	left: 1047px;
+	position: absolute;
+	top: 23px;
+	background: #DD4053;
+	border-radius: 2px;
+}
+.fas fa-book-dead{
+	left: 75.02%;
+right: 24.26%;
+top: 3%;
+bottom: 96.57%;
+position: absolute;
+background: #FFFFFF;
+}
+.box_2{
+	position: absolute;
+width: 205px;
+height: 55px;
+left: 1113px;
+top: 23px;
+
+background: #EFF3F6;
+border-radius: 2px;
+}
+.container_1 h3{
+	width: 118px;
+	height: 20px;
+	left: 1128px;
+	top: 40px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #373737;
+}
+
+.fas fa-search{
+	left: 91.5%;
+right: 7.14%;
+top: 2.62%;
+bottom: 96.31%;
+position: absolute;
+background: #FFFFFF;
+}
+.i_box_1{
+width: 55px;
+height: 55px;
+left: 1263px;
+top: 23px;
+position: absolute;
+background: #4AD295;
+border-radius: 2px;
+}
+.pal{
+
+width: 1400px;
+height: 1px;
+left: 0px;
+top: 100px;
+
+background: #D0D0D0;
+}
+a{
+	color: black;
+}
+.container{
+width: 1400px;
+height: 70px;
+left: 0px;
+top: 100px;
+
+background: #FFFFFF;
+}
+.container{
+	display: grid;
+    grid-template-areas: 
+                            'col_1 col_2 col_3 col_4 col_5 col_6 col_7 col_8 col_9 col_10'
+                            
+                                ;
+    grid-gap: 10px;
+
+}
+.col_1{
+    grid-area: col_1;
+	text-align: center;
+	margin-top: 22px;
+	align-items: center;
+}
+.col_2{
+    grid-area: col_2;
+	align-items: center;
+	text-align: center;
+	margin-top: 22px;
+}
+.col_3{
+    grid-area: col_3;
+	text-align: center;
+	align-items: center;
+	margin-top: 22px;
+}
+.col_4{
+    grid-area: col_4;
+	align-items: center;
+	text-align: center;
+	margin-top: 22px;
+}
+.col_5{
+    grid-area: col_5;
+	text-align: center;
+	align-items: center;
+	margin-top: 22px;
+}
+.col_6{
+    grid-area: col_6;
+	text-align: center;
+	align-items: center;
+	margin-top: 22px;
+}
+.col_7{
+    grid-area: col_7;
+	text-align: center;
+	align-items: center;
+	margin-top: 22px;
+}
+.col_8{
+    grid-area: col_8;
+	text-align: center;
+	margin-top: 22px;
+	align-items: center;
+}
+.col_9{
+    grid-area: col_9;
+	text-align: center;
+	align-items: center;
+	margin-top: 22px;
+}
+.col_10{
+    grid-area: col_10;
+	text-align: center;
+	margin-top: 22px;
+	
+}
+.block {
+width: 6px;
+height: 6px;
+left: 810px;
+top: 142px;
+   }
+.reg::after {
+
+    content: '';
+	border: 6px solid transparent;
+	 border-top: 6px solid rgb(0, 0, 0);
+}
+.pal_2{
+	width: 1400px;
+height: 1px;
+left: 0px;
+top: 169px;
+
+background: #D0D0D0;
+}
+.puti{
+	position: absolute;
+width: 300px;
+height: 15px;
+left: 115px;
+top: 200px;
+}
+.article{
+	position: absolute;
+	width: 224px;
+	height: 126px;
+	left: 115px;
+	top: 263px;
+font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 31px;
+	line-height: 42px;
+	/* or 135% */
+	
+	text-transform: uppercase;
+	
+	color: #232323;
+}
+
+
+.palochka{
+	position: absolute;
+width: 50px;
+height: 3px;
+left: 1160px;
+top: 170px;
+
+background: #DD4053;
+}
+a{
+	text-decoration: none;
+}
+
+.tekst{
+	width: 500px;
+	height: 600px;
+}
+.numer{
+	position: absolute;
+width: 25px;
+height: 25px;
+left: 515px;
+top: 277px;
+
+background: #DD4053;
+}
+.numer h3{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 14px;
+text-align: center;
+
+
+color: #FFFFFF;
+}
+.thag{
+	position: absolute;
+width: 604px;
+height: 25px;
+left: 560px;
+top: 275px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 24px;
+
+
+
+color: #323232;
+}
+.rext{
+	position: absolute;
+width: 699px;
+height: 70px;
+left: 515px;
+top: 315px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+color: #323232;
+
+}
+
+.nord{
+	
+position: absolute;
+width: 800px;
+height: 1px;
+left: 485px;
+top: 415px;
+
+background: #D0D0D0;
+}
+
+.numer_10{
+	position: absolute;
+width: 25px;
+height: 25px;
+left: 515px;
+top: 448px;
+
+background: #F8F8F8;
+}
+
+
+.text{
+	position: absolute;
+	width: 604px;
+	height: 25px;
+	left: 560px;
+	top: 446px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 24px;
+	/* identical to box height, or 111% */
+	
+	
+	color: #323232;
+}
+
+.nord_1{
+	position: absolute;
+	width: 800px;
+	height: 1px;
+	left: 485px;
+	top: 501px;
+	
+	background: #D0D0D0;
+}
+.numer_2{
+	position: absolute;
+width: 25px;
+height: 25px;
+left: 515px;
+top: 534px;
+
+background: #F8F8F8;
+}
+.text_1{
+	position: absolute;
+width: 604px;
+height: 25px;
+left: 560px;
+top: 532px;
+
+}
+.text_1 h3{
+	
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 24px;
+/* identical to box height, or 111% */
+
+
+color: #323232;
+}
+.nord_2{
+	position: absolute;
+width: 800px;
+height: 1px;
+left: 485px;
+top: 587px;
+
+background: #D0D0D0;
+}
+.numer_3{
+	position: absolute;
+width: 25px;
+height: 25px;
+left: 515px;
+top: 620px;
+
+background: #F8F8F8;
+}
+.text_2{
+	position: absolute;
+width: 604px;
+height: 25px;
+left: 560px;
+top: 618px;
+
+}
+.text_2 h3{
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 24px;
+
+
+
+color: #323232;
+}
+.nord_3{
+	position: absolute;
+width: 800px;
+height: 1px;
+left: 485px;
+top: 673px;
+
+background: #D0D0D0;
+}
+.footer{
+	position: absolute;
+width: 1400px;
+height: 260px;
+left: 0px;
+top: 764px;
+
+background: #b9b4b4;
+}
+.imgep{
+	position: absolute;
+width: 135px;
+height: 80px;
+left: 115px;
+top: 120px;
+
+background: url(./img/logo\ \(1\)\ 1\ \(1\).png);
+background-blend-mode: darken;
+}
+.father{
+	position: absolute;
+	width: 724px;
+	height: 91px;
+	margin-left :561px;
+	margin-top: 90px;
+}
+.first{
+	display: flex;
+}
+.first h4{
+	margin: auto;
+	font-family: Suisse Int l Trial;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 19px;
+
+color: #3E3E3E;
+
+}
+.second{
+	display: flex;
+	
+}
+.second h4{
+	margin: auto;
+	margin-top: 10px	;
+	font-family: Suisse Int l Trial;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 19px;
+
+color: #3E3E3E;
+
+}
+.third{
+	display: flex;
+
+}
+.third h4{
+	margin-left: 50px;
+	margin-top: 10px	;
+	font-family: Suisse Int l Trial;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 19px;
+
+color: #3E3E3E;		
+}
+.fourth h4{
+	font-family: Suisse Int l Trial;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 19px;
+
+color: #3E3E3E;
+margin-left: 45px;
+margin-top: 10px ;
+}
+.pochka{	
+	position: absolute;
+width: 1170px;
+height: 3px;
+left: 115px;
+top: 220px;
+
+background: rgba(255, 255, 255, 0.2);
+border-radius: 4px;
+}
+.end{
+	position: absolute;
+width: 377px;
+height: 18px;
+left: 115px;
+top: 240px;
+
+
+}
+.end h3{
+	font-family: Suisse Int l Trial;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+
+color: rgba(62, 62, 62, 0.5);
+}
+.end_end{
+	display: flex;
+	position: absolute;
+	left: 1205px;
+	top: 230px;
+	width: 90px;
+	height: 30px;
+	
+}	
+.end_end div{
+	margin: auto;
+}
